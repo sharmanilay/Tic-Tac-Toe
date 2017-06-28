@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"/>
+	<title>THE GAME</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	
+	<script type="text/javascript" src="JS/javascript.js"></script>
+</head>
+<body>
+	<section class="container">
+		<div class="Player-Option">
+			<div id="box-elements">
+				<h1>Select Player Options</h1>
+				<br>
+				<br>
+				<div id="button">
+					<button  onclick="SinglePlayer()">Single Player</button>
+					<button  onclick="DoublePlayer()">Double Player</button>
+				</div>
+				<div id="button2">
+					<button id="X">X</button>
+					<button id="O">O</button>
+				</div>
+			</div>
+			<div class="game-box">
+				<div class="board">
+   					 <div class="row">
+      					<div class="col-xs-1 field" id="r1c1"><button class="r" id="R1c1" value="1">.</button></div>
+      					<div class="col-xs-1 field" id="r1c2"><button class="r" id="R1c1" value="2">.</button></div>
+      					<div class="col-xs-1 field" id="r1c3"><button class="r" id="R1c3" value="3">.</button></div>
+    				</div>
+    				<div class="row">
+      					<div class="col-xs-1 field" id="r2c1"><button class="r" id="R2c1" value="4">.</button></div>
+      					<div class="col-xs-1 field" id="r2c2"><button class="r" id="R2c2" value="5">.</button></div>
+      					<div class="col-xs-1 field" id="r2c3"><button class="r" id="R2c3" value="6">.</button></div>
+    				</div>
+    				<div class="row">
+      					<div class="col-xs-1 field" id="r3c1"><button class="r" id="R3c1" value="7">.</button></div>
+      					<div class="col-xs-1 field" id="r3c2"><button class="r" id="R3c2" value="8">.</button></div>
+      					<div class="col-xs-1 field" id="r3c3"><button class="r" id="R3c3" value="9">.</button></div>
+    				</div>
+  				</div>
+				
+			</div>
+		</div>
+		
+
+	</section>
+
+	<div class="container">
+		<button onclick="reset()">Reset</button>
+	</div>	
+</body>
